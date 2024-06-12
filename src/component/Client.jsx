@@ -9,7 +9,7 @@ const Client = () => {
   return (
     <div>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 justify-center items-center mx-auto text-white'>
-            <ClientCard image1={Ellipse1} image2={Ellipse3} image3={Ellipse2} time='120k +' customers='Happy customers' style='bg-[#E6E6EE] dark:text-gray-900'/>
+            <ClientCard image1={Ellipse1} image2={Ellipse3} image3={Ellipse2} time='120k +' customers='Happy customers' style='bg-gray-200 dark:text-gray-900'/>
             <div className='rounded-2xl mx-6 text-white' style={{ backgroundImage:`url(${backgroundImages})`, backgroundSize: 'cover',height: 'auto',  backgroundRepeat: 'no-repeat'}}>
                 <div className='flex justify-between p-6'>
                     <div className='space-y-3 p-4'>

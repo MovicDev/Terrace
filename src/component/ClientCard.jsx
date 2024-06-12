@@ -3,7 +3,7 @@ import React from 'react'
 const ClientCard = ({image1,image4,image2,image3,time,customers, style}) => {
   return (
     <div>
-        <div className={`flex justify-between p-7 m-7 space-x-10 text-white rounded-2xl bg-black ${style}`} >
+        <div className={`flex justify-between p-7 m-10 space-x-10 text-white rounded-2xl bg-black ${style}`} >
             <div className='space-y-3 p-2'>
                 <p className='text-3xl font-bold'>{time}</p>
                 <p className='font-medium'>{customers}</p>
